@@ -24,8 +24,8 @@
 </div>
 
 <p align="center">
-  <a href="https://arxiv.org/abs/" target='_blank'>
-    <img src="https://img.shields.io/badge/arXiv-xxx-b31b1b?logo=arxiv&logoColor=b31b1b">
+  <a href="https://arxiv.org/abs/2503.20785" target='_blank'>
+    <img src="http://img.shields.io/badge/arXiv-2503.20785-b31b1b?logo=arxiv&logoColor=b31b1b" alt="ArXiv">
   </a>
   <a href="https://free4d.github.io/" target='_blank'>
     <img src="https://img.shields.io/badge/Project-Page-red?logo=googlechrome&logoColor=red">

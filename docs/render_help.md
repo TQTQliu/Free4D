@@ -1,0 +1,5 @@
+## Point cloud render configurations
+
+You can create a camera trajectory by specifying a sequence of d_phi, d_theta, d_r values. Set `--mode` as 'single_view_txt' and write the sequences in a txt file (example: [monster.txt](../configs/vc_configs/trajs/monster.txt)). The first line of the txt file should contain the target d_phi sequence, the second line the target d_theta sequence, and the third line the target d_r sequence. Each sequence should start with 0, and the length of each sequence should range from 2 to 25. Then, input the txt file path into `--traj_txt`. The program will interpolate a smooth trajectory based on the sequences you provide.
+
+The camera configuration mentioned above is borrowed from ViewCrafter. For more details, please refer to the [ViewCrafter documentation](https://github.com/Drexubery/ViewCrafter/blob/main/docs/render_help.md).

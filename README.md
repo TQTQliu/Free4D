@@ -42,9 +42,7 @@
 
 >**TL;DR**: <em>Free4D is a tuning-free framework for 4D scene generation.</em>
 
-
-https://github.com/user-attachments/assets/370239b0-e4d4-4c04-af2b-ed6ea2c37acb
-
+![teaser](assets/teaser.gif)
 
 
 ## 🌟 Abstract

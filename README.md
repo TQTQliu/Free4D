@@ -42,8 +42,17 @@
 
 >**TL;DR**: <em>Free4D is a tuning-free framework for 4D scene generation.</em>
 
-![teaser](assets/teaser.gif)
+<details>
+<summary>Click to expand Free4D introduction</summary>
 
+![teaser](assets/teaser.gif)
+</details>
+
+<details>
+<summary>Click to expand 4D interactive viewer demo</summary>
+
+![teaser](assets/viewer.gif)
+</details>
 
 ## 🌟 Abstract
 We present **Free4D**, a novel tuning-free framework for 4D scene generation from a single image. Existing methods either focus on object-level generation, making scene-level generation infeasible, or rely on large-scale multi-view video datasets for expensive training, with limited generalization ability due to the scarcity of 4D scene data. In contrast, our key insight is to distill pre-trained foundation models for consistent 4D scene representation, which offers promising advantages such as efficiency and generalizability. **1)** To achieve this, we first animate the input image using image-to-video diffusion models followed by 4D geometric structure initialization. **2)** To turn this coarse structure into spatial-temporal consistent multiview videos, we design an adaptive guidance mechanism with a point-guided denoising strategy for spatial consistency and a novel latent replacement strategy for temporal coherence. **3)** To lift these generated observations into consistent 4D representation, we propose a modulation-based refinement to mitigate inconsistencies while fully leveraging the generated information. The resulting 4D representation enables real-time, controllable spatial-temporal rendering, marking a significant advancement in single-image-based 4D scene generation.

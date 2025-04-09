@@ -112,7 +112,7 @@ python train_mst.py -s data/gs/fox --expname fox
 # 4DGS rendering.
 python render.py --model_path output/gs/fox
 ```
-The rendered multi-view video will be saved in `output/gs/fox/test`. For camera trajectory setup, please refer [here](https://github.com/TQTQliu/Free4D_private/blob/09c433738a033eda786aacaea488d887179b07ef/docs/render_help.md).
+The rendered multi-view video will be saved in `output/gs/fox/test`. For camera trajectory setup, please refer [here](docs/render_help.md).
 
 Here is an alternative solution that does not use [MonST3R](https://monst3r-project.github.io/), but instead employs [DUSt3R](https://dust3r.europe.naverlabs.com/) and optical flow.
 ```

@@ -136,12 +136,14 @@ python render.py --model_path output/gs/fox_dst
 If you find our work useful for your research, please consider citing our paper:
 
 ```
- @article{liu2025free4d,
-     title={Free4D: Tuning-free 4D Scene Generation with Spatial-Temporal Consistency},
-     author={Liu, Tianqi and Huang, Zihao and Chen, Zhaoxi and Wang, Guangcong and Hu, Shoukang and Shen, liao and Sun, Huiqiang and Cao, Zhiguo and Li, Wei and Liu, Ziwei},
-     journal={arXiv preprint arXiv:2503.20785},
-     year={2025}
- }
+@InProceedings{Liu_2025_ICCV,
+    author    = {Liu, Tianqi and Huang, Zihao and Chen, Zhaoxi and Wang, Guangcong and Hu, Shoukang and Shen, Liao and Sun, Huiqiang and Cao, Zhiguo and Li, Wei and Liu, Ziwei},
+    title     = {Free4D: Tuning-free 4D Scene Generation with Spatial-Temporal Consistency},
+    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+    month     = {October},
+    year      = {2025},
+    pages     = {25571-25582}
+}
 ```
 
 ## ♥️ Acknowledgement
